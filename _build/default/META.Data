@@ -1,0 +1,6 @@
+description = ""
+requires = "str"
+archive(byte) = "dataHelper.cma"
+archive(native) = "dataHelper.cmxa"
+plugin(byte) = "dataHelper.cma"
+plugin(native) = "dataHelper.cmxs"

@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries dataHelper rnn ounit2 qcheck-core))

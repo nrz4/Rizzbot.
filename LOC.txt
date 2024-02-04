@@ -1,0 +1,4 @@
+We understood that we did not complete the 1600 lines of code,
+However we found our project so cool that we honestly focused more on trying to
+make it work then trying to reach the 1600 lines.
+

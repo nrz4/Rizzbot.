@@ -1,0 +1,20 @@
+lib: [
+  "_build/install/default/lib/Data/META"
+  "_build/install/default/lib/Data/dataHelper.a"
+  "_build/install/default/lib/Data/dataHelper.cma"
+  "_build/install/default/lib/Data/dataHelper.cmi"
+  "_build/install/default/lib/Data/dataHelper.cmt"
+  "_build/install/default/lib/Data/dataHelper.cmti"
+  "_build/install/default/lib/Data/dataHelper.cmx"
+  "_build/install/default/lib/Data/dataHelper.cmxa"
+  "_build/install/default/lib/Data/dataHelper.ml"
+  "_build/install/default/lib/Data/dataHelper.mli"
+  "_build/install/default/lib/Data/dune-package"
+  "_build/install/default/lib/Data/opam"
+]
+libexec: [
+  "_build/install/default/lib/Data/dataHelper.cmxs"
+]
+doc: [
+  "_build/install/default/doc/Data/README.md"
+]

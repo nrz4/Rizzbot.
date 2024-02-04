@@ -1,0 +1,32 @@
+Chatbot : Demo (Instuctions)
+
+For this project we decided to have a Chatbot (Rizzbot essentially) that
+communicates with a user with romantic conversations and advice on relationships, 
+for any person to ask and discuss with
+
+Essentially for now the only library we have used in our application is the Bogue
+library. Bogue allows a programmer to use a GUI and applications of it.
+
+Beforehand, to ensure you have dune, tsdl, tsdl-image and tsdl-ttf, please input as well unto the terminal the following command:
+
+opam install dune tsdl tsdl-image tsdl-ttf
+
+To install Bogue:
+
+1) For Mac/iOS users please go into your termial on your Mac and put in the following
+command: 
+opam install bogue
+
+2) Afterwards please cd into the project once you have downloaded from the zip file and within the terminal while running
+on VSCode please input the following:
+dune build
+
+3) Once down enter the command "make exe" and you will be able to run the Chatbot.
+
+For Windows essentially run the first and second step in your Ubuntu terminal and then run the rest within VSCode.
+For any further clarifications please refer to this website:
+
+https://sanette.github.io/bogue/INSTALL.html
+
+Enjoy the demo!
+

@@ -1,0 +1,36 @@
+(lang dune 3.10)
+(name Data)
+(sections (lib .) (libexec .) (doc ../../doc/Data))
+(files
+ (lib
+  (META
+   dataHelper.a
+   dataHelper.cma
+   dataHelper.cmi
+   dataHelper.cmt
+   dataHelper.cmti
+   dataHelper.cmx
+   dataHelper.cmxa
+   dataHelper.ml
+   dataHelper.mli
+   dune-package
+   opam))
+ (libexec (dataHelper.cmxs))
+ (doc (README.md)))
+(library
+ (name Data)
+ (kind normal)
+ (archives (byte dataHelper.cma) (native dataHelper.cmxa))
+ (plugins (byte dataHelper.cma) (native dataHelper.cmxs))
+ (native_archives dataHelper.a)
+ (requires str)
+ (main_module_name DataHelper)
+ (modes byte native)
+ (modules
+  (singleton
+   (obj_name dataHelper)
+   (visibility public)
+   (source
+    (path DataHelper)
+    (intf (path dataHelper.mli))
+    (impl (path dataHelper.ml))))))
